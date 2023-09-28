@@ -12,7 +12,7 @@ type LineChartProps = {
 }
 
 export const MyLineChart = ({ coinData, currentPrice, coinName }: LineChartProps) => {
-    console.log(coinData?.data?.change);
+    
     const data = [];
 
     for (let i = 0; i < coinData?.data?.history.length; i++) {
